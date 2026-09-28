@@ -1,0 +1,8 @@
+.directory
+# senha e host locais — copie *.exemplo.ini / db.exemplo.php
+**/db.php
+**/livro.ini
+**/*.ini
+!**/*.exemplo.ini
+.env
+.env.*
