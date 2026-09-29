@@ -20,13 +20,13 @@ Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o
 
 Este repositório é o caderno dos **módulos 4, 5, 6 e 7** do curso de POO em PHP (rumo ao Adianti). Os módulos 1–3 (fundamentos, trilhas OOP e o CRUD HTML + Postgres) ficam no repositório anterior.
 
-Ainda **sem** o framework no código até a aula pedir. Pastas prontas; o conteúdo de cada módulo só é descrito no README quando existir exercício real.
+Ainda **sem** o framework no código até a aula pedir. **Módulo 4.1:** `throw`, `try` e `catch` em `TratamentoErros.php` (dividir por zero e validar idade).
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Folder stubs only — README rows stay “waiting for class” until there is a real exercise.
+This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4.1: `throw` / `try` / `catch` in `TratamentoErros.php`.
 
 </details>
 
@@ -34,7 +34,9 @@ This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adi
 
 ## Como rodar
 
-Ainda não há script para executar. Quando o primeiro exercício entrar, o comando (terminal ou `php -S`) vai aparecer aqui, no mesmo formato do [caderno 1–3](https://github.com/Otaviochrist/OOP-adiant-php).
+```bash
+php modulo-4/TratamentoErros.php
+```
 
 Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemplo.ini` / `db.exemplo.php` quando existirem.
 
@@ -44,7 +46,7 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 
 | Pasta | Status |
 | --- | --- |
-| [`modulo-4/`](modulo-4/) | Aguardando material da aula |
+| [`modulo-4/`](modulo-4/) | **4.1** `TratamentoErros.php` — `throw` / `try` / `catch` |
 | [`modulo-5/`](modulo-5/) | Aguardando material da aula |
 | [`modulo-6/`](modulo-6/) | Aguardando material da aula |
 | [`modulo-7/`](modulo-7/) | Aguardando material da aula |
@@ -53,7 +55,7 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 <summary>🇺🇸 English version</summary>
 <br>
 
-**Trails** — `modulo-4/` through `modulo-7/`: waiting for class material. Previous workbook: classes, CRUD HTML + Postgres (7 levels), Adapter/Facade.
+**Module 4.1** — `TratamentoErros.php`: `throw` / `try` / `catch`. Modules 5–7 waiting for class material.
 
 </details>
 
