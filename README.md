@@ -20,13 +20,13 @@ Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o
 
 Este repositório é o caderno dos **módulos 4, 5, 6 e 7** do curso de POO em PHP (rumo ao Adianti). Os módulos 1–3 (fundamentos, trilhas OOP e o CRUD HTML + Postgres) ficam no repositório anterior.
 
-Ainda **sem** o framework no código até a aula pedir. **Módulo 4.1:** `throw`, `try` e `catch` em `TratamentoErros.php` (dividir por zero e validar idade).
+Ainda **sem** o framework no código até a aula pedir. **Módulo 4.1:** `throw` / `try` / `catch`. **4.2:** métodos mágicos (`Magicos1.php` … `Magicos6.php`).
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4.1: `throw` / `try` / `catch` in `TratamentoErros.php`.
+This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4.1: exceptions. Module 4.2: magic methods (`__construct` … `__call`, `clone` / `clone with`).
 
 </details>
 
@@ -36,6 +36,12 @@ This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adi
 
 ```bash
 php modulo-4/TratamentoErros.php
+php modulo-4/Magicos1.php
+php modulo-4/Magicos2.php
+php modulo-4/Magicos3.php
+php modulo-4/Magicos4.php
+php modulo-4/Magicos5.php
+php modulo-4/Magicos6.php
 ```
 
 Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemplo.ini` / `db.exemplo.php` quando existirem.
@@ -46,7 +52,7 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 
 | Pasta | Status |
 | --- | --- |
-| [`modulo-4/`](modulo-4/) | **4.1** `TratamentoErros.php` — `throw` / `try` / `catch` |
+| [`modulo-4/`](modulo-4/) | **4.1** `TratamentoErros.php`. **4.2** `Magicos1`–`Magicos3` (construct/set/get) → `Magicos4` (`__toString`) → `Magicos5` (`clone`/`__clone`) → `Magicos6` (`__toString`, `clone`, `__clone`, `clone($obj, [...])`, `__call`) |
 | [`modulo-5/`](modulo-5/) | Aguardando material da aula |
 | [`modulo-6/`](modulo-6/) | Aguardando material da aula |
 | [`modulo-7/`](modulo-7/) | Aguardando material da aula |
@@ -55,7 +61,7 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 <summary>🇺🇸 English version</summary>
 <br>
 
-**Module 4.1** — `TratamentoErros.php`: `throw` / `try` / `catch`. Modules 5–7 waiting for class material.
+**Module 4.1** — exceptions. **4.2** — magic methods, six files by difficulty. Modules 5–7 waiting for class material.
 
 </details>
 
