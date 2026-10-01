@@ -1,16 +1,4 @@
 <?php
-/**
- * 4.2 Magicos3 — os cinco juntos
- * Rodar: php modulo-4/Magicos3.php
- */
-
-// Classe Produto.
-// __construct($nome): nome vazio → throw.
-// preco e estoque só com __set (chaves 'preco' e 'estoque'). Valor < 0 → throw.
-// __get: chave que não for preco nem estoque → throw.
-// __isset: nas duas chaves.
-// __destruct: echo do nome.
-// Teste no try: new ok, set/get/isset, e um throw (construtor ou set). Catch imprime a mensagem.
 
 class Produto {
     private array $dados = [];

@@ -1,13 +1,4 @@
 <?php
-/**
- * 4.2 Magicos4 — __toString
- * Rodar: php modulo-4/Magicos4.php
- */
-
-// Classe Recado. __construct($texto): texto vazio → throw.
-// __toString: return o texto (sem echo dentro).
-// Dica: echo $obj chama __toString.   try { echo new Recado('oi'); echo new Recado(''); } catch ...
-// Teste: recado ok primeiro, vazio depois.
 
  class Recado {
 
