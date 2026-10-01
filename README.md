@@ -8,7 +8,7 @@
 
 <br>
 
-Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o Adianti Framework — **módulos 4 a 7**.
+Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o Adianti Framework — **módulos 4 a 8**.
 
 > *Continuação do [caderno 1–3](https://github.com/Otaviochrist/OOP-adiant-php). O código de cada módulo entra quando a aula chegar.*
 
@@ -18,7 +18,7 @@ Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o
 
 ## Sobre
 
-Este repositório é o caderno dos **módulos 4, 5, 6 e 7** do curso de POO em PHP (rumo ao Adianti). Os módulos 1–3 (fundamentos, trilhas OOP e o CRUD HTML + Postgres) ficam no repositório anterior.
+Este repositório é o caderno dos **módulos 4 a 8** do curso de POO em PHP (rumo ao Adianti). Os módulos 1–3 (fundamentos, trilhas OOP e o CRUD HTML + Postgres) ficam no repositório anterior.
 
 Ainda **sem** o framework no código até a aula pedir. **4.1** exceções. **4.2** mágicos. **4.2.5** property hooks. **4.3** SimpleXML.
 
@@ -26,7 +26,7 @@ Ainda **sem** o framework no código até a aula pedir. **4.1** exceções. **4.
 <summary>🇺🇸 English version</summary>
 <br>
 
-This repo is the workbook for **modules 4–7** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4.1–4.2: exceptions and magic methods. 4.2.5: property hooks. 4.3: SimpleXML.
+This repo is the workbook for **modules 4–8** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4: exceptions, magic methods, property hooks, SimpleXML.
 
 </details>
 
@@ -63,12 +63,13 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 | [`modulo-5/`](modulo-5/) | Aguardando material da aula |
 | [`modulo-6/`](modulo-6/) | Aguardando material da aula |
 | [`modulo-7/`](modulo-7/) | Aguardando material da aula |
+| [`modulo-8/`](modulo-8/) | Aguardando material da aula |
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-**Module 4** — `tratamento-erros/`, `metodos-magicos/`, `property-hooks/`, `simplexml/`. Modules 5–7 waiting.
+**Module 4** — `tratamento-erros/`, `metodos-magicos/`, `property-hooks/`, `simplexml/`. Modules 5–8 waiting.
 
 </details>
 
