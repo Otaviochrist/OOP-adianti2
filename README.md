@@ -20,13 +20,13 @@ Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o
 
 Este repositório é o caderno dos **módulos 4 a 8** do curso de POO em PHP (rumo ao Adianti). Os módulos 1–3 (fundamentos, trilhas OOP e o CRUD HTML + Postgres) ficam no repositório anterior.
 
-Ainda **sem** o framework no código até a aula pedir. **4.1** exceções. **4.2** mágicos. **4.2.5** property hooks. **4.3** SimpleXML. **4.4** DOM (`createElement` / `appendChild`).
+Ainda **sem** o framework no código até a aula pedir. **4.1** exceções. **4.2** mágicos. **4.2.5** property hooks. **4.3** SimpleXML. **4.4** DOM. **4.6** Reflection.
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-This repo is the workbook for **modules 4–8** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4: exceptions, magic methods, property hooks, SimpleXML, DOM.
+This repo is the workbook for **modules 4–8** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4: exceptions, magic methods, property hooks, SimpleXML, DOM, Reflection.
 
 </details>
 
@@ -48,6 +48,8 @@ php modulo-4/simplexml/SimpleXml2.php
 php modulo-4/simplexml/SimpleXml3.php
 php modulo-4/domxml/Dom1.php
 php modulo-4/domxml/Dom2.php
+php modulo-4/reflection/Refl1.php
+php modulo-4/reflection/Refl2.php
 ```
 
 Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemplo.ini` / `db.exemplo.php` quando existirem.
@@ -63,6 +65,7 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 | [`modulo-4/property-hooks/`](modulo-4/property-hooks/) | **4.2.5** `PropertyHooks.php` |
 | [`modulo-4/simplexml/`](modulo-4/simplexml/) | **4.3** `SimpleXml1` → `SimpleXml2` → `SimpleXml3` |
 | [`modulo-4/domxml/`](modulo-4/domxml/) | **4.4** `Dom1.php` (montar) → `Dom2.php` (montar + atributo) |
+| [`modulo-4/reflection/`](modulo-4/reflection/) | **4.6** `Refl1.php` → `Refl2.php` |
 | [`modulo-5/`](modulo-5/) | Aguardando material da aula |
 | [`modulo-6/`](modulo-6/) | Aguardando material da aula |
 | [`modulo-7/`](modulo-7/) | Aguardando material da aula |
@@ -72,7 +75,7 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 <summary>🇺🇸 English version</summary>
 <br>
 
-**Module 4** — `tratamento-erros/`, `metodos-magicos/`, `property-hooks/`, `simplexml/`, `domxml/`. Modules 5–8 waiting.
+**Module 4** — `tratamento-erros/`, `metodos-magicos/`, `property-hooks/`, `simplexml/`, `domxml/`, `reflection/`. Modules 5–8 waiting.
 
 </details>
 

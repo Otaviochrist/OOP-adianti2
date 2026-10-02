@@ -1,14 +1,4 @@
 <?php
-/**
- * 4.4 Dom1 — montar XML (sem atributo)
- * Rodar: php modulo-4/domxml/Dom1.php
- */
-
-// new DOMDocument().
-// Raiz agenda. Um contato dentro.
-// No contato: nome = Lia, fone = 1199 (createElement com texto + appendChild).
-// print $dom->saveXML($agenda);
-// Não usa SimpleXML.
 $doc = new DOMDocument();
 $agenda = $doc->createElement('agenda');
 $doc->appendChild($agenda);
