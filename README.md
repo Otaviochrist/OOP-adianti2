@@ -3,14 +3,12 @@
 # OOP em PHP · Adianti
 
 [![PHP](https://img.shields.io/badge/PHP-8.5-8866C4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-[![Progresso](https://img.shields.io/badge/Módulo-4%20%2F%208-8866C4?style=for-the-badge)](#exercícios)
+[![Progresso](https://img.shields.io/badge/Módulo-5%20%2F%208-8866C4?style=for-the-badge)](#exercícios)
 [![Adianti](https://img.shields.io/badge/Adianti-Framework-8866C4?style=for-the-badge)](https://www.adianti.com.br/)
 
 <br>
 
-Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o Adianti Framework — **módulos 4 a 8**.
-
-> *Continuação do [caderno 1–3](https://github.com/Otaviochrist/OOP-adiant-php). O código de cada módulo entra quando a aula chegar.*
+Caderno **módulos 4 a 8** (POO → Adianti). Continuação do [caderno 1–3](https://github.com/Otaviochrist/OOP-adiant-php). Sem framework até a aula pedir.
 
 </div>
 
@@ -18,15 +16,14 @@ Caderno de exercícios de **Orientação a Objetos em PHP**, preparação para o
 
 ## Sobre
 
-Este repositório é o caderno dos **módulos 4 a 8** do curso de POO em PHP (rumo ao Adianti). Os módulos 1–3 (fundamentos, trilhas OOP e o CRUD HTML + Postgres) ficam no repositório anterior.
-
-Ainda **sem** o framework no código até a aula pedir. **4.1** exceções. **4.2** mágicos. **4.2.5** property hooks. **4.3** SimpleXML. **4.4** DOM. **4.6** Reflection. **4.7** Traits. **4.8** injeção de dependência.
+**4.1–4.8** exceções, mágicos, property hooks, SimpleXML, DOM, Reflection, Traits, injeção de dependência.  
+**5.2** persistência: Table Data Gateway, Active Record, Data Mapper (PDO / SQLite).
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-This repo is the workbook for **modules 4–8** of the PHP OOP course toward Adianti. Modules 1–3 live in the previous repository. No framework in the code until the course requires it. Module 4: exceptions, magic methods, property hooks, SimpleXML, DOM, Reflection, Traits, dependency injection.
+Workbook for modules 4–8. M4: exceptions through DI. M5.2: Table Data Gateway, Active Record, Data Mapper (PDO/SQLite). No framework until the course asks.
 
 </details>
 
@@ -35,27 +32,13 @@ This repo is the workbook for **modules 4–8** of the PHP OOP course toward Adi
 ## Como rodar
 
 ```bash
-php modulo-4/tratamento-erros/TratamentoErros.php
-php modulo-4/metodos-magicos/Magicos1.php
-php modulo-4/metodos-magicos/Magicos2.php
-php modulo-4/metodos-magicos/Magicos3.php
-php modulo-4/metodos-magicos/Magicos4.php
-php modulo-4/metodos-magicos/Magicos5.php
-php modulo-4/metodos-magicos/Magicos6.php
-php modulo-4/property-hooks/PropertyHooks.php
-php modulo-4/simplexml/SimpleXml1.php
-php modulo-4/simplexml/SimpleXml2.php
-php modulo-4/simplexml/SimpleXml3.php
-php modulo-4/domxml/Dom1.php
-php modulo-4/domxml/Dom2.php
-php modulo-4/reflection/Refl1.php
-php modulo-4/reflection/Refl2.php
-php modulo-4/traits/Traits1.php
-php modulo-4/traits/Traits2.php
 php modulo-4/injecao-dependencia/Inj1.php
+php modulo-5/persistencia/Etapa1.php
+php modulo-5/persistencia/Etapa2.php
+php modulo-5/persistencia/Etapa3.php
 ```
 
-Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemplo.ini` / `db.exemplo.php` quando existirem.
+Os outros `.php` do módulo 4 estão nas pastas da tabela. Senha (`db.php`, `livro.ini`) **não** vai no Git.
 
 <br>
 
@@ -63,24 +46,17 @@ Arquivos com senha (`db.php`, `livro.ini`) **não** vão no Git. Use os `*.exemp
 
 | Pasta | Conteúdo |
 | --- | --- |
-| [`modulo-4/tratamento-erros/`](modulo-4/tratamento-erros/) | **4.1** `TratamentoErros.php` — `throw` / `try` / `catch` |
-| [`modulo-4/metodos-magicos/`](modulo-4/metodos-magicos/) | **4.2** `Magicos1`–`Magicos6` |
-| [`modulo-4/property-hooks/`](modulo-4/property-hooks/) | **4.2.5** `PropertyHooks.php` |
-| [`modulo-4/simplexml/`](modulo-4/simplexml/) | **4.3** `SimpleXml1` → `SimpleXml2` → `SimpleXml3` |
-| [`modulo-4/domxml/`](modulo-4/domxml/) | **4.4** `Dom1.php` (montar) → `Dom2.php` (montar + atributo) |
-| [`modulo-4/reflection/`](modulo-4/reflection/) | **4.6** `Refl1.php` → `Refl2.php` |
-| [`modulo-4/traits/`](modulo-4/traits/) | **4.7** `Traits1.php` (use) → `Traits2.php` (`insteadof` / `as`) |
-| [`modulo-4/injecao-dependencia/`](modulo-4/injecao-dependencia/) | **4.8** `Inj1.php` — `Logger` + construtor (`EchoLogger`) |
-| [`modulo-5/`](modulo-5/) | Aguardando material da aula |
-| [`modulo-6/`](modulo-6/) | Aguardando material da aula |
-| [`modulo-7/`](modulo-7/) | Aguardando material da aula |
-| [`modulo-8/`](modulo-8/) | Aguardando material da aula |
+| [`modulo-4/`](modulo-4/) | **4.1–4.8** erros, mágicos, hooks, XML, Reflection, Traits, DI |
+| [`modulo-5/persistencia/`](modulo-5/persistencia/) | **5.2** `Etapa1` Gateway · `Etapa2` Active Record · `Etapa3` Mapper |
+| [`modulo-6/`](modulo-6/) | Aguardando aula |
+| [`modulo-7/`](modulo-7/) | Aguardando aula |
+| [`modulo-8/`](modulo-8/) | Aguardando aula |
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-**Module 4** — `tratamento-erros/`, `metodos-magicos/`, `property-hooks/`, `simplexml/`, `domxml/`, `reflection/`, `traits/`, `injecao-dependencia/`. Modules 5–8 waiting.
+**M4** folders under `modulo-4/`. **M5.2** `persistencia/`: Gateway → AR → Mapper. 6–8 waiting.
 
 </details>
 

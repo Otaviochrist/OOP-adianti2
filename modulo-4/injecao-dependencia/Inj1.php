@@ -1,15 +1,5 @@
 <?php
 
-// 1) Interface Logger com metodo escrever(string $msg): void
-
-// 2) Classe EchoLogger: implementa Logger; echo da msg + PHP_EOL
-
-// 3) Classe Pedido:
-//    - propriedade privada Logger $logger
-//    - construtor recebe Logger (injecao)
-//    - metodo criar(): chama $this->logger->escrever('pedido criado')
-
-// 4) new Pedido(new EchoLogger()) e criar()
 
 interface Logger {
   public function escrever(string $msg): void;
