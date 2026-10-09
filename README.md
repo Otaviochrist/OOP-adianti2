@@ -17,13 +17,14 @@ Caderno **módulos 4 a 8** (POO → Adianti). Continuação do [caderno 1–3](h
 ## Sobre
 
 **4.1–4.8** exceções, mágicos, property hooks, SimpleXML, DOM, Reflection, Traits, injeção de dependência.  
-**5.2** persistência: Table Data Gateway, Active Record, Data Mapper (PDO / SQLite).
+**5.2** persistência: Table Data Gateway, Active Record, Data Mapper (PDO / SQLite).  
+**5.4** Active Record genérico: superclasse `Record` (`load`/`store`/`delete`) + `Produto`.
 
 <details>
 <summary>🇺🇸 English version</summary>
 <br>
 
-Workbook for modules 4–8. M4: exceptions through DI. M5.2: Table Data Gateway, Active Record, Data Mapper (PDO/SQLite). No framework until the course asks.
+Workbook for modules 4–8. M4: exceptions through DI. M5.2: Gateway / AR / Mapper. M5.4: generic `Record` superclass. No framework until the course asks.
 
 </details>
 
@@ -36,6 +37,7 @@ php modulo-4/injecao-dependencia/Inj1.php
 php modulo-5/persistencia/Etapa1.php
 php modulo-5/persistencia/Etapa2.php
 php modulo-5/persistencia/Etapa3.php
+php modulo-5/active-record/Ar1.php
 ```
 
 Os outros `.php` do módulo 4 estão nas pastas da tabela. Senha (`db.php`, `livro.ini`) **não** vai no Git.
@@ -48,6 +50,7 @@ Os outros `.php` do módulo 4 estão nas pastas da tabela. Senha (`db.php`, `liv
 | --- | --- |
 | [`modulo-4/`](modulo-4/) | **4.1–4.8** erros, mágicos, hooks, XML, Reflection, Traits, DI |
 | [`modulo-5/persistencia/`](modulo-5/persistencia/) | **5.2** `Etapa1` Gateway · `Etapa2` Active Record · `Etapa3` Mapper |
+| [`modulo-5/active-record/`](modulo-5/active-record/) | **5.4** `Record` + `Produto` · `Ar1` load/store/delete |
 | [`modulo-6/`](modulo-6/) | Aguardando aula |
 | [`modulo-7/`](modulo-7/) | Aguardando aula |
 | [`modulo-8/`](modulo-8/) | Aguardando aula |
@@ -56,7 +59,7 @@ Os outros `.php` do módulo 4 estão nas pastas da tabela. Senha (`db.php`, `liv
 <summary>🇺🇸 English version</summary>
 <br>
 
-**M4** folders under `modulo-4/`. **M5.2** `persistencia/`: Gateway → AR → Mapper. 6–8 waiting.
+**M4** folders under `modulo-4/`. **M5.2** `persistencia/`: Gateway → AR → Mapper. **M5.4** `active-record/`. 6–8 waiting.
 
 </details>
 
